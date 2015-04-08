@@ -8,3 +8,7 @@ Template: Howdy
 .LPMcontainer {
     visibility: hidden;
 }
+
+.owl-item img{
+	width: 100%;
+}
