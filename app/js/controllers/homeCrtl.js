@@ -2,7 +2,14 @@ four51.app.controller('homeCtrl', ['$scope', '$rootScope', '$location', 'User', 
 function ($scope, $rootScope, $location, User, Address, Resources) {
 	
 	function init(){
-		$("#exampleCarousel").owlCarousel();
+		$("#exampleCarousel").owlCarousel({
+
+			navigation : true,
+		    slideSpeed : 300,
+		    paginationSpeed : 400,
+		    singleItem:true
+		    
+		});
 	}	
 
 	init();
