@@ -25,7 +25,7 @@ function ($scope, $sce, $route, User) {
 					$scope.credentials.Username = null;
 					$scope.credentials.Password = null;
 				}
-				alert(1);
+				
 				console.log($("#exampleCarousel").owlCarousel({}));
 				var ele = $("#exampleCarousel")[0];
 		$(ele).owlCarousel({
