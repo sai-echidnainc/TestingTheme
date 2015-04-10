@@ -26,16 +26,7 @@ function ($scope, $sce, $route, User) {
 					$scope.credentials.Password = null;
 				}
 				
-				console.log($("#exampleCarousel").owlCarousel({}));
-				var ele = $("#exampleCarousel")[0];
-		$(ele).owlCarousel({
-
-			navigation : true,
-		    slideSpeed : 300,
-		    paginationSpeed : 400,
-		    singleItem:true
-		    
-		});
+			
 			},
 			function(ex) {
 				$scope.credentials = {};
