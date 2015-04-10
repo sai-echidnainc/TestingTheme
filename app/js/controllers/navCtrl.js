@@ -26,7 +26,10 @@ function ($location, $route, $scope, $451, User) {
         }
         else {
             if (cur_path == path)
-                result = true;
+                result = false;
+        }
+        if(cur_path == ''){
+            result = true;
         }
         return result;
     };
