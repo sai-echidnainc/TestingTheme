@@ -16,7 +16,7 @@ function ($location, $route, $scope, $451, User) {
     $scope.isActive = function(path) {
         var cur_path = $location.path().replace('/', '');
         console.log(cur_path);
-        console.log(path);
+        console.log('path',path);
         var result = false;
 
         if (path instanceof Array) {
@@ -28,7 +28,7 @@ function ($location, $route, $scope, $451, User) {
         else {
             if (cur_path == path)
                 result = true;
-        }
+        } 
         if(path == 'home'){
         console.log('in home');
             result = false;
