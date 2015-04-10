@@ -27,7 +27,8 @@ function ($scope, $sce, $route, User) {
 				}
 				alert(1);
 				console.log($("#exampleCarousel").owlCarousel({}));
-		$("#exampleCarousel").owlCarousel({
+				var ele = $("#exampleCarousel")[0];
+		$(ele).owlCarousel({
 
 			navigation : true,
 		    slideSpeed : 300,
