@@ -19,10 +19,10 @@ function ($location, $route, $scope, $451, User) {
         console.log('path',path);
         var result = false;
 
-        if(path == 'home'){
-            console.log('in home');
-            result = true;
-        }
+        // if(path == 'home'){
+        //     console.log('in home');
+        //     result = true;
+        // }
 
         if (path instanceof Array) {
             angular.forEach(path, function(p) {
