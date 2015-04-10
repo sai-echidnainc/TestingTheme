@@ -31,7 +31,7 @@ function ($location, $route, $scope, $451, User) {
         }
         if(path == 'home'){
         console.log('in home');
-            result = true;
+            result = false;
         }
         return result;
     };
