@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 setTimeout(function(){
 init();	
-},500);
+},100);
 	
 
 })
