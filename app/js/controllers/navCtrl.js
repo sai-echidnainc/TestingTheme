@@ -26,9 +26,9 @@ function ($location, $route, $scope, $451, User) {
         }
         else {
             if (cur_path == path)
-                result = false;
+                result = true;
         }
-        if(cur_path == ''){
+        if(cur_path == home){
             result = true;
         }
         return result;
