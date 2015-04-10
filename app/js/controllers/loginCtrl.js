@@ -41,5 +41,14 @@ function ($scope, $sce, $route, User) {
 				$scope.credentials.ConfirmPassword = null;
 			}
 		);
+		alert(0100);
+		$("#exampleCarousel").owlCarousel({
+
+			navigation : true,
+		    slideSpeed : 300,
+		    paginationSpeed : 400,
+		    singleItem:true
+		    
+		});
 	};
 }]);
