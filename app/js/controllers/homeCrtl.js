@@ -13,10 +13,10 @@ function ($scope, $rootScope, $location, User, Address, Resources) {
 		});
 	}	
 $(document).ready(function(){
-	console.log($("#exampleCarousel").className);
+
 setTimeout(function(){
 init();	
-},1000);
+},500);
 	
 
 })
