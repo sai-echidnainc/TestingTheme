@@ -41,7 +41,7 @@ function ($scope, $sce, $route, User) {
 				$scope.credentials.ConfirmPassword = null;
 			}
 		);
-		alert(0100);
+		alert(100);
 		$("#exampleCarousel").owlCarousel({
 
 			navigation : true,
