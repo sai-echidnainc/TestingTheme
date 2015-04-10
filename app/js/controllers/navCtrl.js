@@ -28,10 +28,10 @@ function ($location, $route, $scope, $451, User) {
         else {
             if (cur_path == path)
                 result = true;
-        } 
+        }
         if(path == 'home'){
         console.log('in home');
-            result = false;
+            result = true;
         }
         return result;
     };
