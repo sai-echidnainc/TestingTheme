@@ -25,6 +25,16 @@ function ($scope, $sce, $route, User) {
 					$scope.credentials.Username = null;
 					$scope.credentials.Password = null;
 				}
+				alert(1);
+				console.log($("#exampleCarousel").owlCarousel({}));
+		$("#exampleCarousel").owlCarousel({
+
+			navigation : true,
+		    slideSpeed : 300,
+		    paginationSpeed : 400,
+		    singleItem:true
+		    
+		});
 			},
 			function(ex) {
 				$scope.credentials = {};
@@ -41,14 +51,6 @@ function ($scope, $sce, $route, User) {
 				$scope.credentials.ConfirmPassword = null;
 			}
 		);
-console.log($("#exampleCarousel"));
-		$("#exampleCarousel").owlCarousel({
 
-			navigation : true,
-		    slideSpeed : 300,
-		    paginationSpeed : 400,
-		    singleItem:true
-		    
-		});
 	};
 }]);
