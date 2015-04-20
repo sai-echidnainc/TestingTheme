@@ -1,8 +1,8 @@
-{{currentCategory}}
+
 <div class="panel panel-default" ng-show="currentCategory.SubCategories.length">
     <div class="panel-heading" >
         <h3 class="panel-title" >
-            {{'Categories' | r}}
+            {{'Categories main' | r}}
         </h3>
     </div>
     <div class="well" ng-show="productCount > settings.pageSize">
@@ -10,7 +10,7 @@
                     items-per-page="settings.pageSize" direction-links="true"></pagination>
     </div>
     <div class="panel-category-list">
-        <h1>hello</h1>
+
         <loadingindicator ng-show="categoryLoadingIndicator" title="{{'Please wait while we fetch all categories' | r}}" />
         <nav class="nav 451_lbl_subcatlist">
             <ul>
