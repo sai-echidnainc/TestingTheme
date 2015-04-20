@@ -1,5 +1,6 @@
 <div class="category-list-simple" ng-show="currentCategory.SubCategories.length">
     <loadingindicator ng-show="categoryLoadingIndicator" title="{{'Please wait while we fetch all categories' | r}}" />
+    {{currentCategory}}
     <div ng-repeat="c in currentCategory.SubCategories">
         <div style="background-image:url({{c.Image.URL}});">
             <div>
